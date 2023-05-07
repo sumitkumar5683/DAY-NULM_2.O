@@ -1,13 +1,108 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+.footer-v1 .footer {
+	padding: 40px 0;	
+	background: #272727;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.footer-v1 .footer p {
+	color: #eee;
 }
+
+.footer-v1 .footer h2 {
+	color: #eee;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+/*Link List*/
+.footer-v1 .link-list li {
+	border-top: solid 1px #353535;
+}
+
+.footer-v1 address,
+.footer-v1 .link-list a,
+.footer-v1 .link-list i {
+	color: #eee;
+}
+
+.footer-v1 address {
+	line-height: 23px;
+}
+
+.col-md-3 .headline {
+	color: #eee;
+
+}
+.col-md-3 .list-unstyled-latest-list {
+	color: #eee;
+
+
+}
+.col-md-6 {
+	color: #141313;
+}
+
+.news-v1-in{
+	color: #000000;
+}
+
+
+.footer-v1 .copyright {
+	background: #222;
+	border-top: none;
+	padding: 10px 0 5px;
+}
+
+.footer-v1 .copyright p {
+	color: #eee;
+	margin-top: 14px;
+}
+
+.footer-v1 .copyright a {
+	margin: 0 2px;
+}
+
+.footer-v1 .footer-socials {
+	margin-top: 12px;
+	text-align: right;
+}
+
+.footer-v1 .footer-socials a {
+	color: #ffffff;
+	font-size: 16px;
+	margin-left: 17px;
+}
+
+@media (max-width: 991px) {
+	.footer-v1 .copyright,
+	.footer-v1 .footer-socials {
+		text-align: left;
+	}
+}
+
+.col-md-6 a{
+	color: #9d9d9d;
+	font-size: 17px;
+	text-decoration:none;
+
+}
+
+.navbar-toggler li {
+	color: #ffffff;
+	text-decoration:none;
+
+}
+
+.nav-item a{
+	text-decoration:none;
+}
+
+.col-md-3 p a{
+	text-decoration:none;
+	color: #9d9d9d;
+}
+
+
+
+/* log in */

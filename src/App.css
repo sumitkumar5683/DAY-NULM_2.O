@@ -42,8 +42,18 @@
   
   background-color: #0f1111;
   
-  height: 750px;
+  height: 700px;
+ 
 }
+
+.background-c{
+  
+  background-color: #0f1111;
+  
+  height: 575px;
+ 
+}
+
 
 .background .shape{
   height: 200px;
@@ -86,19 +96,49 @@
   bottom: -80px;
 }
 form{
-  height: 620px;
+  height: 630px;
   width: 400px;
   background-color: rgba(255,255,255,0.13);
   position: absolute;
   transform: translate(-50%,-50%);
-  top: 80%;
+  top: 70%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255,255,255,0.1);
   box-shadow: 0 0 40px rgba(8,7,16,0.6);
   padding: 50px 35px;
+
+
 }
+/* Login */
+form1{
+  height: 500px;
+  width: 400px;
+  background-color: rgba(255,255,255,0.13);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 62%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+
+  /* login */
+
+
+}
+
+form1 *{
+  font-family: 'Poppins',sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
 form *{
   font-family: 'Poppins',sans-serif;
   color: #ffffff;
@@ -115,18 +155,19 @@ form h3{
 
 label{
   display: block;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 16px;
   font-weight: 500;
 }
 input{
   display: block;
-  height: 50px;
+  height: 40px;
   width: 100%;
   background-color: rgba(255,255,255,0.07);
   border-radius: 3px;
   padding: 0 10px;
-  margin-top: 8px;
+  margin-top: 5px;
+  
   font-size: 14px;
   font-weight: 300;
 }
@@ -134,7 +175,8 @@ input{
   color: #e5e5e5;
 }
 button{
-  margin-top: 50px;
+  height: 48px;
+  margin-top: 15px;
   width: 100%;
   background-color: #ffffff;
   color: #080710;

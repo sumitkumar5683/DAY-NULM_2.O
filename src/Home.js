@@ -142,7 +142,6 @@ const Home = () => {
                     Login
                   </a>
                 </Link>
-                
               </li>
               <li className="nav-item">
                 <Link to="/About">
@@ -152,7 +151,6 @@ const Home = () => {
                 </Link>
               </li>
             </ul>
-          
           </div>
         </div>
       </nav>
@@ -276,7 +274,6 @@ const Home = () => {
                   development process, beginning from problem identification to
                   decision making.{" "}
                 </p>
-               
               </div>
             </div>
             <div className="col-md-4" style={{ marginBottom: "40px" }}>
@@ -302,7 +299,6 @@ const Home = () => {
                   register street vendors and will issue Certificate of Vending
                   (CoV) and Identity cards to all identified street vendors.{" "}
                 </p>
-               
               </div>
             </div>
             <div className="col-md-4">
@@ -327,7 +323,6 @@ const Home = () => {
                   current status of the existing permanent shelters and identify
                   key challenges in achieving their desired outcomes.{" "}
                 </p>
-                
               </div>
             </div>
           </div>
@@ -358,28 +353,31 @@ const Home = () => {
               </div>
 
               <div className="col-md-3 md-margin-bottom-40">
-              <h2>Support</h2>
-                
+                <h2>Support</h2>
+
                 <p>
-                
-                <a href="#">(SEP)Self-Employment Programme </a> <br />
-                <a href="#">(STEP)Skill Training and Employment Programme </a><br />
-                <a href="#">(EST&P)Employment through Skill Training and Placement  </a><br />
-                <a href="#">(SM&ID)Social Mobilization and Institution Development </a>
+                  <a href="#">(SEP)Self-Employment Programme </a> <br />
+                  <a href="#">(STEP)Skill Training and Employment Programme </a>
+                  <br />
+                  <a href="#">
+                    (EST&P)Employment through Skill Training and Placement{" "}
+                  </a>
+                  <br />
+                  <a href="#">
+                    (SM&ID)Social Mobilization and Institution Development{" "}
+                  </a>
                 </p>
               </div>
 
               <div className="col-md-3 md-margin-bottom-40">
-              <h2>Visit Us</h2>
-                
+                <h2>Visit Us</h2>
+
                 <p>
-                <a href="#">DAY-NULM</a> <br />
-                <a href="#">PM-SVANIDH</a><br />
-                
-                 
+                  <a href="#">DAY-NULM</a> <br />
+                  <a href="#">PM-SVANIDH</a>
+                  <br />
                 </p>
               </div>
-
 
               <div
                 className="col-md-3 map-img"
@@ -410,9 +408,7 @@ const Home = () => {
                   <a href="privacy.html">Privacy Policy</a> |{" "}
                   <a href="...">Terms of Service</a>
                 </p>
-            
               </div>
-              
 
               {/* Social Links */}
               <div className="col-md-6">

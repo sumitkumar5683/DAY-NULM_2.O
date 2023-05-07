@@ -142,7 +142,6 @@ const About = () => {
                     Login
                   </a>
                 </Link>
-                
               </li>
               <li className="nav-item">
                 <Link to="/About">
@@ -153,7 +152,6 @@ const About = () => {
                 </Link>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>

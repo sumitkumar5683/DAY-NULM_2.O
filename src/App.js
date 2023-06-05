@@ -7,6 +7,14 @@ import Contact from "./Contact";
 import Login from "./Login";
 import Signup from "./Signup";
 import Registation from "./Registation";
+import "./CSS/Footer.css";
+import "./CSS/Header.css";
+import "./CSS/Navbar.css";
+import "./CSS/Login.css";
+
+
+
+
 
 
 function App() {

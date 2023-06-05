@@ -2,13 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+
 
 function Registaration() {
   return (
     <div>
       <Header label="Click me" />
+      <Navbar label="Click me" />
 
-      {/* registation */}
+      
+      
+      {/* registation
       <div>
         <h1>Student Registaration Form</h1>
         <div className="container02">
@@ -209,7 +214,7 @@ function Registaration() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer label="Click me" />
     </div>
   );

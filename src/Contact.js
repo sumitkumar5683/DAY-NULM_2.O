@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 function Contact() {
   return (
     <div>
       <Header label="Click me" />
+      <Navbar label="Click me" />
 
       <div className="container">
         <div

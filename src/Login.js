@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 function Login() {
   return (
     <div>
       <Header label="Click me" />
+      <Navbar label="Click me" />
 
       {/* login page */}
       <div className="background-c">
@@ -15,7 +17,7 @@ function Login() {
           <div className="shape" />
         </div>
 
-        <form1>
+        <form5>
           <h3>Login Here</h3>
           <label htmlFor="username">Username</label>
           <input type="text" placeholder="Email or Phone" id="username" />
@@ -35,7 +37,7 @@ function Login() {
               <i className="fab fa-facebook" /> Facebook
             </div>
           </div>
-        </form1>
+        </form5>
       </div>
       <Footer label="Click me" />
     </div>

@@ -2,11 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+
 
 function About() {
   return (
     <div>
       <Header label="Click me" />
+      <Navbar label="Click me" />
+     
 
       <div className="container content-md welcomeSection">
         <div className="row section1">

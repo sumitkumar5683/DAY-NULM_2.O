@@ -5,12 +5,11 @@ function Header() {
   return (
     <headerone className="headeron">
       <div className="logoone">
-    <img src="flag.webp" />
-    
-  </div>
-  <id className="headeron">
-    <a>GOVERNMENT OF INDIA</a>
-  </id>
+        <img src="flag.webp" />
+      </div>
+      <id className="headeron">
+        <a>GOVERNMENT OF INDIA</a>
+      </id>
     </headerone>
   );
 }

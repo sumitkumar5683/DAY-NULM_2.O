@@ -12,24 +12,21 @@ html {
   padding: 0 2.2rem;
   height: 6rem;
   display: flex;
+  justify-content: left;
   background: #ffbb00;
   height: 50px;
   font-size: 1.5rem;
- 
   align-items: center;
   color: #ffffff;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .headeron .logoone {
   height: 30px;
-
   display: flex;
+  width: 50px
 }
-.headerone {
-    background: #ffbb00;
-    height: 50px;
-  }
+
 /* end header css */
 /* navbar css */
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville6family=PT+Sans:ital, wght@0,400;0,700;1,400;1,7006family-Work+Sans: wght@400;500; 600;700&display=swap");
@@ -50,7 +47,6 @@ html {
   align-items: center;
  
   margin-bottom: 1rem;
- background-color: #ffffff;
  
 }
 

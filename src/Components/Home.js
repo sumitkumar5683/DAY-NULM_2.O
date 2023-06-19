@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-import "./CSS/Home.css";
+import Header from "./Header";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import "../CSS/Home.css";
+import "../CSS/staticbar.css"
+import "../CSS/schemes.css"
 
 
 function Home() {
@@ -54,10 +56,10 @@ function Home() {
         </button>
       </div>
       {/* static */}
-      <staticbar className="staticbar">
-      <div className="logoonee">
+
+  <staticbar className="staticbar">
+  <div className="logoonee">
     <img src="statics.jpg" />
-    
   </div>
   <id className="headeronone">
     <a>14.03 + Lakh <br></br>SUBMISSIONS IN TASKS</a>

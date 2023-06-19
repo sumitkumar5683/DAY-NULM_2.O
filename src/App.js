@@ -1,20 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Login from "./Login";
-import Signup from "./Signup";
-import Registation from "./Registation";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
+import Registation from "./Components/Registation";
+import "./index"
 import "./CSS/Footer.css";
 import "./CSS/Header.css";
 import "./CSS/Navbar.css";
 import "./CSS/Login.css";
-
-
-
-
 
 
 function App() {

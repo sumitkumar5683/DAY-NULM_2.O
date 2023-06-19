@@ -1,0 +1,173 @@
+/* home static */
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville6family=PT+Sans:ital, wght@0,400;0,700;1,400;1,7006family-Work+Sans: wght@400;500; 600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+    /* 1rem=10px */
+}
+
+.staticbar {
+    padding: 0 2.2rem;
+    height: 6rem;
+    display: flex;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    height: 180px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    color: #353030;
+    gap: 4rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.staticbar .logoonee {
+    height: 50px;
+    display: flex;
+}
+
+.staticbar .headeronone {
+    font-size: 1.8rem;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.all {
+    display: flex;
+    box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+}
+
+
+.circle-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 160px);
+    grid-gap: 80px;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill-1,
+.circle-wrap .circle .fill-2,
+.circle-wrap .circle .fill-3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    background: #f0efec;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 13px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* color animation */
+
+.mask .fill-1 {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #ffbb00;
+}
+
+.mask.full-1,
+.circle .fill-1 {
+    animation: fill-1 ease-in-out 3s;
+    transform: rotate(153deg);
+}
+
+@keyframes fill-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(153deg);
+    }
+}
+
+/* 2nd bar */
+
+.mask .fill-2 {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #ffbb00;
+}
+
+.mask.full-2,
+.circle .fill-2 {
+    animation: fill-2 ease-in-out 3s;
+    transform: rotate(117deg);
+}
+
+@keyframes fill-2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(117deg);
+    }
+}
+
+/* 3rd progress bar */
+.mask .fill-3 {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #ffbb00;
+}
+
+.mask.full-3,
+.circle .fill-3 {
+    animation: fill-3 ease-in-out 3s;
+    transform: rotate(135deg);
+}
+
+@keyframes fill-3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+    }
+}
+
+.all .logoonee {
+    height: 1px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.circle-wrap .headeronee {
+    margin-top: 80px;
+    font-size: 1.6rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}

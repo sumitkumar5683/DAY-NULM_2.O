@@ -32,26 +32,17 @@ html {
   --sectionBack: #f7f6f9;
 }
 
-
-
-body {
-  background-color: var(--bodyBack);
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-
-
-}
-
 .containerr {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .headerr {
   width: 100%;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .headerr h1 {
@@ -127,11 +118,7 @@ body {
   color: var(--starColor);
 }
 
-.bay {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
+
 
 .bay button {
   padding: 10px 20px;

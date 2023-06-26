@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../CSS/Header.css"
 
 function Header() {
   return (
-    <headerone className="headeron">
+    <div className="headeron">
       <div className="logoone">
-        <img src="flag.webp" />
+        <img src="flag.webp" width={30} height={20} alt="a"  />
       </div>
-      <id className="headeron">
-        <a>GOVERNMENT OF INDIA</a>
-      </id>
-    </headerone>
+      <div>
+        <h4>GOVERNMENT OF INDIA</h4>
+      </div>
+    </div>
   );
 }
 

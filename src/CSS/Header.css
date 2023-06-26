@@ -1,74 +1,15 @@
-
-/* header css */
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville6family=PT+Sans:ital, wght@0,400;0,700;1,400;1,7006family-Work+Sans: wght@400;500; 600;700&display=swap");
 
-
-html {
-  font-size: 62.5%;
-  /* 1rem=10px */
-}
-
-.headeron {
-  padding: 0 2.2rem;
-  height: 6rem;
-  display: flex;
-  justify-content: left;
+.headeron{
   background: #ffbb00;
-  height: 50px;
-  font-size: 1.5rem;
-  align-items: center;
   color: #ffffff;
-  /* background-size: cover; */
-}
-
-.headeron .logoone {
-  height: 30px;
   display: flex;
-  width: 50px
-}
-
-/* end header css */
-/* navbar css */
-@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville6family=PT+Sans:ital, wght@0,400;0,700;1,400;1,7006family-Work+Sans: wght@400;500; 600;700&display=swap");
-
-
-
-html {
-  font-size: 50.5%;
-  /* 1rem=10px */
-}
-
-.header {
-  padding: 0 11.8rem;
-  height: 12rem;
-  display: flex;
-  margin-top: 1rem;
-  justify-content: space-between;
   align-items: center;
- 
-  margin-bottom: 1rem;
- 
+  height: 50px;
+  justify-content:left;
+  width: 100%;
 }
-
-.header .logo {
-  height: 90px;
-
-  display: flex;
-}
-
-.navbar-list {
-  display: flex;
-  gap: 3rem;
-  list-style: none;
-}
-
-.navbar-link,
-.navbar-link:visited {
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 1.7rem;
-  font-weight: 500;
-  color: #000000;
-  transition: all 0.3s;
+.headeron .logoone {
+  padding-left: 10px;
+  padding-right: 10px;
 }

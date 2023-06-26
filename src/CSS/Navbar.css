@@ -1,37 +1,17 @@
 
-
-/* navbar css */
-/* 
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville6family=PT+Sans:ital, wght@0,400;0,700;1,400;1,7006family-Work+Sans: wght@400;500; 600;700&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 50.5%;
-}
 
 .header {
   padding: 0 11.8rem;
-  height: 12rem;
+
   display: flex;
+  flex-direction: row;
   margin-top: 1rem;
   justify-content: space-between;
   align-items: center;
- 
   margin-bottom: 1rem;
- background-color: #ffffff;
- 
 }
 
-.header .logo {
-  height: 90px;
-
-  display: flex;
-}
 
 .navbar-list {
   display: flex;
@@ -45,8 +25,13 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #000000;
   transition: all 0.3s;
 }
- */
+
+@media screen and (max-width: 768px) {
+  .header{
+    flex-direction: column;
+  }
+}

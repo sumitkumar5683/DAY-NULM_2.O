@@ -1,41 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+import "../CSS/contact.css"
+
 
 function Contact() {
   return (
-    <div>
-      <Header label="Click me" />
-      <Navbar label="Click me" />
+    <div className="contactpage">
 
-      <div className="container">
-        <div
-          className="headline-center"
-          style={{ marginBottom: "40px", marginTop: "60px" }}
-        >
+      <Header />
+      <Navbar/>
+      <div className="contact1">
+        <div className="contactheading">
           <h2>For Administrative Contact</h2>
-          <div className="line" />
         </div>
-        <div className="container" style={{ marginBottom: "50px" }}>
-          <div className="row news-v1">
-            <div className="col-md-4" style={{ marginBottom: "40px" }}>
-              <div className="news-v1-in">
-                <img
+        <div className="cardrow">
+          <div className="card">
+            <div className="cardimg">
+            <img
                   style={{ borderRadius: "40px" }}
                   src="rahul.jpg"
-                  width={400}
-                  height={350}
+                  width={300}
+                  height={290}
                   alt=""
-                />
-                <h3>
-                  <a>
+            />
+            </div>
+            <div className="carddata">
+            <h1>
+                  <h2>
                     Shri Rahul Kapoor
                     <br />
                     (Joint Secretary)
-                  </a>
-                </h3>
+                  </h2>
+                </h1>
                 <p>
                   Joint Secretary (NULM & PM SVANidhi) <br />
                   Ministry of Housing & UrbanAffairs,
@@ -46,24 +44,26 @@ function Contact() {
                   <br />
                   E-mail: jsupa-mhupa@gov.in{" "}
                 </p>
-              </div>
             </div>
-            <div className="col-md-4" style={{ marginBottom: "40px" }}>
-              <div className="news-v1-in">
-                <img
+          </div>
+            <div className="card">
+            <div className="cardimg">
+            <img
                   style={{ borderRadius: "40px" }}
                   src="blank.webp"
-                  width={400}
-                  height={350}
+                  width={300}
+                  height={290}
                   alt="a"
                 />
-                <h3>
-                  <a>
+            </div>
+            <div className="carddata">
+            <h1>
+                  <h2>
                     Dr. Madhu Rani Teotia, IAS
                     <br />
                     (Directors )
-                  </a>
-                </h3>
+                  </h2>
+                </h1>
                 <p>
                   Director (NULM)
                   <br />
@@ -75,24 +75,27 @@ function Contact() {
                   <br />
                   E-mail: dir-nulm@gov.in{" "}
                 </p>
-              </div>
             </div>
-            <div className="col-md-4">
-              <div className="news-v1-in">
-                <img
+
+          </div>
+          <div className="card">
+            <div className="cardimg">
+            <img
                   style={{ borderRadius: "40px" }}
                   src="blank.webp"
-                  width={400}
-                  height={350}
-                  alt="a"
-                />
-                <h3>
-                  <a>
+                  width={300}
+                  height={290}
+                  alt=""
+            />
+            </div>
+            <div className="carddata">
+            <h1>
+                  <h2>
                     Ms. Shalini Pandey
                     <br />
                     (Directors )
-                  </a>
-                </h3>
+                  </h2>
+                </h1>
                 <p>
                   Director (NULM-II)
                   <br />
@@ -104,31 +107,33 @@ function Contact() {
                   <br />
                   E-mail: dupa-mhupa@gov.in{" "}
                 </p>
-              </div>
             </div>
+
+          </div>
+
           </div>
         </div>
-      </div>
+      
 
-      <div className="container">
-        <div className="headline-center" style={{ marginBottom: "40px" }}>
+      <div className="contact1">
+        <div className="contactheading">
           <h2>Under Secretaries</h2>
-          <div className="line" />
         </div>
-        <div className="container" style={{ marginBottom: "50px" }}>
-          <div className="row news-v1">
-            <div className="col-md-4" style={{ marginBottom: "40px" }}>
-              <div className="news-v1-in">
-                <img
+        <div className="cardrow">
+          <div className="card">
+            <div className="cardimg">
+            <img
                   style={{ borderRadius: "40px" }}
                   src="blank.webp"
-                  width={400}
-                  height={350}
-                  alt="a"
-                />
-                <h3>
-                  <a>Shri Madhukar Pandey</a>
-                </h3>
+                  width={300}
+                  height={290}
+                  alt=""
+            />
+            </div>
+            <div className="carddata">
+            <h1>
+                  <h2>Shri Madhukar Pandey</h2>
+                </h1>
                 <p>
                   Under Secretary
                   <br />
@@ -140,20 +145,22 @@ function Contact() {
                   <br />
                   E-mail: madhukar.pandey@nic.in{" "}
                 </p>
-              </div>
             </div>
-            <div className="col-md-4" style={{ marginBottom: "40px" }}>
-              <div className="news-v1-in">
-                <img
+            </div>
+            <div className="card">
+            <div className="cardimg">
+            <img
                   style={{ borderRadius: "40px" }}
                   src="blank.webp"
-                  width={400}
-                  height={350}
-                  alt="a"
-                />
-                <h3>
-                  <a>Shri Yogesh Kumar</a>
-                </h3>
+                  width={300}
+                  height={290}
+                  alt=""
+            />
+            </div>
+            <div className="carddata">
+            <h1>
+                  <h2>Shri Yogesh Kumar</h2>
+                </h1>
                 <p>
                   Under Secretary
                   <br />
@@ -167,20 +174,23 @@ function Contact() {
                   <br />
                   E-mail: yogesh.kumar@nic.in{" "}
                 </p>
-              </div>
             </div>
-            <div className="col-md-4">
-              <div className="news-v1-in">
-                <img
+
+          </div>
+          <div className="card">
+            <div className="cardimg">
+            <img
                   style={{ borderRadius: "40px" }}
                   src="blank.webp"
-                  width={400}
-                  height={350}
-                  alt="a"
-                />
-                <h3>
-                  <a>Ms Meenakshi Bhardwaj</a>
-                </h3>
+                  width={300}
+                  height={290}
+                  alt=""
+            />
+            </div>
+            <div className="carddata">
+            <h1>
+                  <h2>Ms Meenakshi Bhardwaj</h2>
+                </h1>
                 <p>
                   Under Secretary
                   <br />
@@ -194,13 +204,17 @@ function Contact() {
                   <br />
                   E-mail: meenakshi.bhardwaj@ni c.in{" "}
                 </p>
-              </div>
             </div>
+
+          </div>
+
           </div>
         </div>
-      </div>
+      
       <Footer label="Click me" />
     </div>
+
+     
   );
 }
 

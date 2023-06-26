@@ -1,0 +1,61 @@
+/* welcome css */
+.mission{
+    display: flex;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: #ebc250;
+  }
+  
+  .mission .title-v2 {
+    align-items: right;
+    /* margin-left: 12rem; */
+    font-size: 1.8rem;
+    font-weight: 100px;
+    color: #000000;
+  }
+  .missionrow{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .missionhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  .missiontitle{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .missionimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 40%;
+  }
+  .missionimg img{
+    width: 50%;
+  }
+  @media screen and (max-width: 768px) {
+    .missionrow{
+      flex-direction: column;
+    }
+    .missionhead{
+      width: 100%;
+    }
+    .missionimg{
+      width: 100%;
+    }
+    .missionimg img{
+      width: 100%;
+    }
+  }

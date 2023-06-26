@@ -1,16 +1,12 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Login from "./Components/Login";
-import Signup from "./Components/Signup";
-import Registation from "./Components/Registation";
-import "./index"
-import "./CSS/Footer.css";
-import "./CSS/Header.css";
-import "./CSS/Navbar.css";
-import "./CSS/Login.css";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
+import Registation from "./Pages/Registation";
+import "./App.css"
 
 
 function App() {
@@ -23,8 +19,6 @@ function App() {
         <Route path="/Login" element={<Login/>} />
         <Route path="/Signup" element={<Signup/>} />
         <Route path="/Registation" element={<Registation/>} />
-       
-       
       </Routes>
     </BrowserRouter>
   );
